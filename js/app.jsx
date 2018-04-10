@@ -4,7 +4,16 @@
 /*jshint newcap:false */
 /*global React, Router*/
 var app = app || {};
-
+var styles = {
+	logo: {
+		width: '80%',
+		position: 'absolute',
+		top: -100,
+		left: '10%',
+		right: '10%',
+		margin: '0 auto'
+	}
+};
 (function () {
 	'use strict';
 
@@ -150,7 +159,7 @@ var app = app || {};
 			return (
 				<div>
 					<header className="header">
-						<h1>todos</h1>
+						<img src="img/logo.png" style={styles.logo} />
 						<input
 							className="new-todo"
 							placeholder="What needs to be done?"
