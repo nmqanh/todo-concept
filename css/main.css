@@ -8,15 +8,15 @@ html, body {
 
 
 .filters li a.selected {
-  border-color: rgb(23, 67, 129, 0.2);
+  border-color: rgba(23, 67, 129, 0.2);
 }
 
 .filters li a:hover {
-	border-color: rgb(23, 67, 129, 0.1);
+	border-color: rgba(23, 67, 129, 0.1);
 }
 
 .todo-list li .destroy {
-  color: rgb(23, 67, 129, 0.6);
+  color: rgba(23, 67, 129, 0.6);
   bottom: -5px;
 }
 .todo-list li .destroy:hover {
