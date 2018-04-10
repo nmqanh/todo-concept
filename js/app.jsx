@@ -4,22 +4,13 @@
 /*jshint newcap:false */
 /*global React, Router*/
 var app = app || {};
-var styles = {
-	logo: {
-		width: '80%',
-		position: 'absolute',
-		top: -100,
-		left: '10%',
-		right: '10%',
-		margin: '0 auto'
-	}
-};
 (function () {
 	'use strict';
 
 	app.ALL_TODOS = 'all';
 	app.ACTIVE_TODOS = 'active';
 	app.COMPLETED_TODOS = 'completed';
+
 	var TodoFooter = app.TodoFooter;
 	var TodoItem = app.TodoItem;
 
@@ -97,6 +88,17 @@ var styles = {
 			var footer;
 			var main;
 			var todos = this.props.model.todos;
+
+			var styles = {
+				logo: {
+					width: '80%',
+					position: 'absolute',
+					top: -100,
+					left: '10%',
+					right: '10%',
+					margin: '0 auto'
+				}
+			};
 
 			var shownTodos = todos.filter(function (todo) {
 				switch (this.state.nowShowing) {

@@ -1,6 +1,15 @@
 #  ToDo-Concept
 
 > ToDo-Concept is a fork from a `React` version of [TodoMVC](http://todomvc.com) project. It was rebuilt to reflect the brand of Concept Patterns, a glass optimisation and software service.
+> Live demo: [https://todo-concept.netlify.com](https://todo-concept.netlify.com)
+
+## Responses for Tasks
+
+1. Task 1 - Forked react version from [TodoMVC](http://todomvc.com): **Finished**.
+2. Task 2 - Style this app to represent the Concept patterns brand: **Finished** as described in the following screenshot
+![ToDo Concept brand changes](/img/todo-concept-changes.png)
+3. Task 3 - Update timestamp when a Todo Item is saved: **Finished** as shown in the following screenshot
+![Update timestamp when a todo item is saved](/img/todo-concept-timestamp.png)
 
 ## Development
 
@@ -14,13 +23,6 @@
         npm start
 
 Now you should be access the app on local via [http://localhost:3000](http://localhost:3000)
-
-## Responses for Tasks
-
-1. Task 1 - Forked react version from [TodoMVC](http://todomvc.com): **Finished**.
-2. Task 2 - Style this app to represent the Concept patterns brand: **Finished** as described in the images below
-
-![ToDo Concept brand changes](/img/todo-concept-changes.png)
 
 ## Deployment
 

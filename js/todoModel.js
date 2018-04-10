@@ -32,7 +32,8 @@ var app = app || {};
 		this.todos = this.todos.concat({
 			id: Utils.uuid(),
 			title: title,
-			completed: false
+			completed: false,
+			lastSavedAt: Date.now()
 		});
 
 		this.inform();
@@ -70,7 +71,10 @@ var app = app || {};
 
 	app.TodoModel.prototype.save = function (todoToSave, text) {
 		this.todos = this.todos.map(function (todo) {
-			return todo !== todoToSave ? todo : Utils.extend({}, todo, {title: text});
+			return todo !== todoToSave ? todo : Utils.extend({}, todo, {
+				title: text,
+				lastSavedAt: Date.now()
+			});
 		});
 
 		this.inform();
