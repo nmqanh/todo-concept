@@ -17,6 +17,7 @@ html, body {
 
 .todo-list li .destroy {
   color: rgb(23, 67, 129, 0.6);
+  bottom: -5px;
 }
 .todo-list li .destroy:hover {
 	color: rgb(23, 67, 129)

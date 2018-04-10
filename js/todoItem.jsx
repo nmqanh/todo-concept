@@ -4,7 +4,6 @@
 /*jshint newcap: false */
 /*global React */
 var app = app || {};
-
 (function () {
 	'use strict';
 
@@ -76,6 +75,15 @@ var app = app || {};
 		},
 
 		render: function () {
+			var lastSavedAt = new Date(this.props.todo.lastSavedAt);
+			var styles = {
+				timeInfo: {
+					display: 'block',
+					fontSize: 14,
+					color: '#B6B8B8',
+					marginTop: 3
+				}
+			};
 			return (
 				<li className={classNames({
 					completed: this.props.todo.completed,
@@ -90,6 +98,9 @@ var app = app || {};
 						/>
 						<label onDoubleClick={this.handleEdit}>
 							{this.props.todo.title}
+							<div style={styles.timeInfo}>
+								Last saved at {lastSavedAt.toLocaleString()}
+							</div>
 						</label>
 						<button className="destroy" onClick={this.props.onDestroy} />
 					</div>
