@@ -13,8 +13,14 @@
 
         npm start
 
-
 Now you should be access the app on local via [http://localhost:3000](http://localhost:3000)
+
+## Responses for Tasks
+
+1. Task 1 - Forked react version from [TodoMVC](http://todomvc.com): **Finished**.
+2. Task 2 - Style this app to represent the Concept patterns brand: **Finished** as described in the images below
+
+![ToDo Concept brand changes](/img/todo-concept-changes.png)
 
 ## Deployment
 
