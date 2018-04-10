@@ -1,7 +1,8 @@
 #  ToDo-Concept
 
-> ToDo-Concept is a fork from a `React` version of [TodoMVC](http://todomvc.com) project. It was rebuilt to reflect the brand of Concept Patterns, a glass optimisation and software service.
-> Live demo: [https://todo-concept.netlify.com](https://todo-concept.netlify.com)
+> ToDo-Concept is a fork from a `React` version of [TodoMVC](http://todomvc.com) project. It was rebuilt to reflect the brand of Concept Patterns, a glass optimisation and software service. 
+
+**LIVE DEMO:** [https://todo-concept.netlify.com](https://todo-concept.netlify.com)
 
 ## Responses for Tasks
 
